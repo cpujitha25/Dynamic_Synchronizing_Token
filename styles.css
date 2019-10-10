@@ -1,0 +1,159 @@
+html, body {
+  margin: 0px;
+
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+footer {
+  background-color: #f5f5f5;
+  display: table-row;
+  height: 1px;  
+}
+
+body > .container {
+  padding: 60px 15px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+a.red {
+  color: red;
+}
+
+a.green {
+  color: green;
+}
+
+.custom-link, .custom-link:hover {
+  color: black;
+}
+
+.custom-wrapper {
+  position: relative;
+  min-height: 100vh;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus {
+  outline: 0;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.navbar-dark .navbar-brand:focus {
+  outline: 0;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.custom-fontsize-24 {
+  font-size: 24px;
+}
+
+.custom-text {
+  color: #1E824C;
+}
+
+.custom-nav {
+  background-color: #1E824C; 
+}
+
+.custom-padding-top-2 {
+  padding-top: 2%;
+}
+
+.custom-padding-top-2-5 {
+  padding-top: 2.5%;
+}
+
+.custom-padding-top-5 {
+  padding-top: 5%;
+}
+
+.custom-padding-bottom-1-5 {
+  padding-bottom: 1.5%;
+}
+
+.custom-padding-bottom-2 {
+  padding-bottom: 2%;
+}
+
+.custom-padding-bottom-2-5 {
+  padding-bottom: 2.5%;
+}
+
+.custom-padding-bottom-5 {
+  padding-bottom: 5%;
+}
+
+.custom-padding-right-1 {
+  padding-right: 1%;
+}
+
+.custom-padding-right-2 {
+  padding-right: 2%;
+}
+
+.custom-padding-right-2-5 {
+  padding-right: 2.5%;
+}
+
+.custom-padding-left-2 {
+  padding-left: 2%;
+}
+
+.btn-custom-1 {
+  color: #1E824C;
+  background-color: white;
+}
+
+.btn-custom {
+  color:white;
+  background-color: #1E824C;
+  background-image: none;
+  border-color: #1E824C;  
+}
+
+.btn-custom:hover {
+  color: #1E824C;
+  background-color: white;
+}
+
+.form-control:disabled, .form-control[readonly] {
+  background-color: white;
+}
+
+.btn-custom:focus, .btn-custom:active {
+  border-color: #1E824C;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(44, 186, 110),0 0 8px rgba(44, 186, 110);
+  box-shadow: inset 0 1px 1px rgba(44, 186, 110),0 0 8px rgba(44, 186, 110);
+}
+
+.form-control-green:focus {
+  border-color: #1E824C;
+  outline: 0;
+  -webkit-box-shadow: none; /*inset 0 1px 1px rgba(39, 165, 98),0 0 8px rgba(39, 165, 98)*/
+  box-shadow: none; /*inset 0 1px 1px rgba(39, 165, 98),0 0 8px rgba(39, 165, 98)*/
+} 
+
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+  background-color: #1E824C;
+}
+
+.map-container{
+  position: relative;
+}
+
+.map{
+    overflow: hidden;
+    position: relative;
+}
